@@ -1,0 +1,43 @@
+#root .BasketButton .Button{
+    padding: 0px;
+}
+
+#root .NewOrderButton .Button{
+    padding: 0px;
+}
+
+.basket {
+    height: 220px;
+    width: 220px;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.Main {
+    display:flex;
+}
+
+#root .NewOrderButton {
+    position: fixed;
+ 
+     margin: 5px;
+     top: 50vh;
+     left: 37.5%;
+     transform: translate(-50%,-50%);
+ }
+
+#root .BasketButton {
+    position: fixed;
+    margin: 5px;
+    top: 50vh;
+    left: 62.5%;
+    transform: translate(-50%,-50%);
+}
+
+#root .LogOutButton {
+    position: fixed;
+    margin: 10px;
+    top: 5vh;
+    left: 85%;
+    transform: translateY(-50%);
+}

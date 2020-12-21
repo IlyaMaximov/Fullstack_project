@@ -1,0 +1,39 @@
+.orders_form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+
+    left: 50%;
+    top: 5%;
+    width: 30%;
+    height: 70vh;
+    transform: translateX(-50%);
+    text-align: center;
+    overflow: auto;
+    font-size: 200px;
+
+    font-size: 35px;
+    border: 0px;
+    padding: 10px 10px;
+    margin: 0px 20px;
+}
+
+.backButton1 {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    margin: 60px 60px; 
+}
+
+.xImg {
+    vertical-align: middle;
+    width: 20px;
+}
+
+.xButton {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;    
+}
